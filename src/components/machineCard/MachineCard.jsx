@@ -3,6 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
 import MachineList from '../machineList/MachineList';
+import "./machineCard.scss";
 import {
     bldgOne,
     bldgThree,
@@ -49,6 +50,8 @@ export const MachineCard = ({ showModal, setShowModal }) => {
         [setShowModal, showModal]
     );
 
+    const list = (bldgOne, bldgThree, bldgFour)
+
     useEffect(() => {
 
         switch (selected) {
@@ -79,16 +82,20 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                         < div classname='modalWrapper' showModal={showModal}>
                             < div classname='modalContent'>
                                 {/* <h1>Modal Open</h1> */}
-                                {data.map(item => (
+                                {data.map((d) => (
+                                    // Using Machine List causes modal to show entire list of machines.
                                     <MachineList
-                                        active={selected === item.id}
+                                        active={selected === d.id}
                                         setSelected={setSelected}
-                                        id={item.id}
-                                        title={item.title}
+                                        id={d.id}
+                                        title={d.title}
                                     />
                                 ))}
-                                {/* {data.map((d) => (
-                                    <div className="item">
+                                {data.map((d) => (
+                                    <div className="item"
+                                        active={selected === d.id}
+                                        setSelected={setSelected}
+                                        id={d.id}>
                                         <h3>{d.title}</h3>
                                         <p>{d.jobNum}</p>
                                         <p>{d.partNum}</p>
@@ -96,7 +103,7 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                                         <p>{d.qty}</p>
                                         <p>{d.customer}</p>
                                     </div>
-                                ))} */}
+                                ))}
                             </div>
                             <CloseModalButton
                                 aria-label='Close modal'

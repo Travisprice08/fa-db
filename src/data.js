@@ -53,6 +53,258 @@ export const bldgOne = [
         qty: "360",
         customer: "Tacfire"
     },
+    {
+        id: 7,
+        title: "Doo7",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 8,
+        title: "Doo8",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 9,
+        title: "Doo9",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 10,
+        title: "Doo10",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 11,
+        title: "Doo11",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 12,
+        title: "Doo12",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 13,
+        title: "Doo13",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 14,
+        title: "Grob1",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 15,
+        title: "Grob2",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 16,
+        title: "Hermle1",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 17,
+        title: "Mik3",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 18,
+        title: "Mik4",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 19,
+        title: "Mik6",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 20,
+        title: "Mik7",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 21,
+        title: "Mik8",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 22,
+        title: "Mik9",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 23,
+        title: "Mik10",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 24,
+        title: "Mik11",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 25,
+        title: "Oka2",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 26,
+        title: "Oka3",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 27,
+        title: "Oka4",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 28,
+        title: "Oka5",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 29,
+        title: "Robo3",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 30,
+        title: "Robo4",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 31,
+        title: "VF2-1A",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 32,
+        title: "VF2-2",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 33,
+        title: "Vf2-4",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
+    {
+        id: 34,
+        title: "VF2-6",
+        jobNum: "004165",
+        partNum: "TAC-6-7-ML",
+        op: "30",
+        qty: "360",
+        customer: "Tacfire"
+    },
 
 ]
 
@@ -126,7 +378,7 @@ export const bldgThree = [
     },
     {
         id: 2,
-        title: "DOO 4500",
+        title: "Doo 4500",
         jobNum: "003066",
         partNum: "1703223",
         op: "20",
@@ -135,7 +387,7 @@ export const bldgThree = [
     },
     {
         id: 3,
-        title: "DOO 5X",
+        title: "Doo 5X",
         jobNum: "003067",
         partNum: "1703223",
         op: "20",

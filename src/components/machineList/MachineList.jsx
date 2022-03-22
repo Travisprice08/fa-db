@@ -1,3 +1,4 @@
+import { React, useState } from 'react'
 import "./machineList.scss"
 
 // export default function MachineList({ id, jobNum, partNum, active, setSelected }) {

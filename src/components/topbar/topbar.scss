@@ -18,26 +18,38 @@
         .left {
             display: flex;
             align-items: center;
+            padding-right: 300px;
 
             .logo {
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
             }
-
-            .itemContainer {
-                display: flex;
-                align-items: center;
-                margin-left: 30px;
-
-                span {
-                    font-size: 15px;
-                    font-weight: 500;
-                    text-decoration: none;
-                    color: white;
-                }
-            }
         }
+
+        .itemContainer {
+            display: flex;
+            // align-items: center;
+            // justify-content: center;
+            margin-left: 20%;
+            color: white;
+            
+
+            // span {
+            //     font-size: 15px;
+            //     font-weight: 500;
+            //     text-decoration: none;
+            //     color: white;
+            // }
+        }
+
+        .search{
+            display: flex;
+            background-color: white;
+            margin-left: 25%;
+            border-radius: 10px;
+        }
+
 
         .right{
 

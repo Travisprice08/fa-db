@@ -8,7 +8,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">
-      <Topbar />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Machine />

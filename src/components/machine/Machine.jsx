@@ -17,6 +17,7 @@ export default function Machine() {
         setShowModal(prev => !prev);
     };
 
+
     const list = [
         {
             id: "bldgOne",
@@ -67,8 +68,10 @@ export default function Machine() {
                     {data.map((d) => (
                         <Button onClick={openModal}>
                             <div className="item">
-                                <MachineCard showModal={showModal} setShowModal={setShowModal} />
                                 <h3>{d.title}</h3>
+                                <MachineCard
+                                    showModal={showModal}
+                                    setShowModal={setShowModal} />
                             </div>
                         </Button>
                     ))}

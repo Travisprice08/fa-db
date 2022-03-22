@@ -1,7 +1,7 @@
 .menu{
     width: 300px;
     height: 100vh;
-    background-color: #ababae ;
+    background-color: rgba(221, 22, 22, 0.849);
     position: fixed;
     top: 0;
     right: -300px;
@@ -22,7 +22,7 @@
         list-style: none;
         font-size: 30px;
         font-weight: 400;
-        color: grey;
+        color: rgb(70, 68, 68);
 
         li{
             margin-bottom: 30px;
