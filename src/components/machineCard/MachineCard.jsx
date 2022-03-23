@@ -97,16 +97,21 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                     < div classname='animated' style={animation}>
                         < div classname='modalWrapper' showModal={showModal}>
                             < div classname='modalContent'>
-                                <h1>Modal Open</h1>
-                                {data.map((d) => (
+                                {/* <h1>Modal Open</h1>
+                                {data.map((d) => ( */}
                                     // Using Machine List causes modal to show entire list of machines.
-                                    <MachineList
+                                {/* <MachineList
                                         active={selected === d.id}
                                         setSelected={setSelected}
                                         id={d.id}
                                         title={d.title}
+                                        jobNum={d.jobNum}
+                                        partNum={d.partNum}
+                                        op={d.op}
+                                        qty={d.qty}
+                                        customer={d.customer}
                                     />
-                                ))}
+                                ))} */}
                                 {data.map((d) => (
                                     <div className="item"
                                         active={selected === d.id}
