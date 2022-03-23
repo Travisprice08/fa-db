@@ -9,6 +9,7 @@ import {
     bldgThree,
     bldgFour
 } from "../../data";
+import { Container } from 'react-bootstrap';
 
 const CloseModalButton = styled(MdClose)`
   cursor: pointer;
@@ -50,7 +51,22 @@ export const MachineCard = ({ showModal, setShowModal }) => {
         [setShowModal, showModal]
     );
 
-    const list = (bldgOne, bldgThree, bldgFour)
+    // const list = (bldgOne, bldgThree, bldgFour)
+
+    const list = [
+        {
+            id: "bldgOne",
+            title: "Building 1"
+        },
+        {
+            id: "bldgThree",
+            title: "Building 3"
+        },
+        {
+            id: "bldgFour",
+            title: "Building 4"
+        },
+    ];
 
     useEffect(() => {
 
@@ -75,14 +91,14 @@ export const MachineCard = ({ showModal, setShowModal }) => {
     );
 
     return (
-        <>
+        <Container>
             {showModal ? (
                 < div classname='background' onClick={closeModal} ref={modalRef}>
                     < div classname='animated' style={animation}>
                         < div classname='modalWrapper' showModal={showModal}>
                             < div classname='modalContent'>
-                                {/* <h1>Modal Open</h1> */}
-                                {/* {data.map((d) => (
+                                <h1>Modal Open</h1>
+                                {data.map((d) => (
                                     // Using Machine List causes modal to show entire list of machines.
                                     <MachineList
                                         active={selected === d.id}
@@ -90,7 +106,7 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                                         id={d.id}
                                         title={d.title}
                                     />
-                                ))} */}
+                                ))}
                                 {data.map((d) => (
                                     <div className="item"
                                         active={selected === d.id}
@@ -112,6 +128,6 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                     </div>
                 </div>
             ) : null}
-        </>
+        </Container>
     );
 };
