@@ -53,18 +53,21 @@ export const MachineCard = ({ showModal, setShowModal }) => {
 
     // const list = (bldgOne, bldgThree, bldgFour)
 
-    const list = [
+    const building = [
         {
-            id: "bldgOne",
-            title: "Building 1"
+            bldgOne
+            // id: "bldgOne",
+            // title: "Building 1"
         },
         {
-            id: "bldgThree",
-            title: "Building 3"
+            bldgThree
+            // id: "bldgThree",
+            // title: "Building 3"
         },
         {
-            id: "bldgFour",
-            title: "Building 4"
+            bldgFour
+            // id: "bldgFour",
+            // title: "Building 4"
         },
     ];
 
@@ -80,8 +83,8 @@ export const MachineCard = ({ showModal, setShowModal }) => {
             case "bldgThree":
                 setData(bldgThree);
                 break;
-            default:
-                setData(bldgOne);
+            // default:
+            //     setData(bldgOne);
         }
         document.addEventListener('keydown', keyPress);
         return () => document.removeEventListener('keydown', keyPress);
@@ -97,26 +100,12 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                     < div classname='animated' style={animation}>
                         < div classname='modalWrapper' showModal={showModal}>
                             < div classname='modalContent'>
-                                {/* <h1>Modal Open</h1>
-                                {data.map((d) => ( */}
-                                    // Using Machine List causes modal to show entire list of machines.
-                                {/* <MachineList
-                                        active={selected === d.id}
-                                        setSelected={setSelected}
-                                        id={d.id}
-                                        title={d.title}
-                                        jobNum={d.jobNum}
-                                        partNum={d.partNum}
-                                        op={d.op}
-                                        qty={d.qty}
-                                        customer={d.customer}
-                                    />
-                                ))} */}
                                 {data.map((d) => (
                                     <div className="item"
-                                        active={selected === d.id}
-                                        setSelected={setSelected}
-                                        id={d.id}>
+                                    // active={selected === d.id}
+                                    // setSelected={setSelected}
+                                    // id={d.id}
+                                    >
                                         <p>{d.jobNum}</p>
                                         <p>{d.partNum}</p>
                                         <p>{d.op}</p>

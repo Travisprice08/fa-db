@@ -66,7 +66,10 @@ export default function Machine() {
                 </ul>
                 <div className="container">
                     {data.map((d) => (
-                        <Button onClick={openModal}>
+                        <Button onClick={openModal}
+                            active={selected === d.id}
+                            setSelected={setSelected}
+                            id={d.id}>
                             <div className="item">
                                 <h3>{d.title}</h3>
                                 <MachineCard
