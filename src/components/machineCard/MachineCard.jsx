@@ -14,6 +14,7 @@ import { Container } from 'react-bootstrap';
 const CloseModalButton = styled(MdClose)`
   cursor: pointer;
   position: absolute;
+  color: red;
   top: 20px;
   right: 20px;
   width: 32px;
@@ -102,15 +103,15 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                             < div classname='modalContent'>
                                 {data.map((d) => (
                                     <div className="item"
-                                    // active={selected === d.id}
-                                    // setSelected={setSelected}
-                                    // id={d.id}
+                                        active={selected === d.id}
+                                        setSelected={setSelected}
+                                        id={d.id}
                                     >
                                         <p>{d.jobNum}</p>
                                         <p>{d.partNum}</p>
-                                        <p>{d.op}</p>
+                                        {/* <p>{d.op}</p>
                                         <p>{d.qty}</p>
-                                        <p>{d.customer}</p>
+                                        <p>{d.customer}</p> */}
                                     </div>
                                 ))}
                             </div>

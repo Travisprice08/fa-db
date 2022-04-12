@@ -34,13 +34,13 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                 {/*Try creating a new component for li's so only one onClick is necessary              */}
                 <ul>
                     <li onClick={() => setMenuOpen(false)}>
-                        <a href="#intro">Building 1</a>
+                        <a href="#Building 1">Building 1</a>
                     </li>
                     <li onClick={() => setMenuOpen(false)}>
-                        <a href="#about">Building 3</a>
+                        <a href="#Building 3">Building 3</a>
                     </li>
                     <li onClick={() => setMenuOpen(false)}>
-                        <a href="#work">Building 4</a>
+                        <a href="#Building 4">Building 4</a>
                     </li>
                 </ul>
             </div>
