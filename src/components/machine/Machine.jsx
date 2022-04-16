@@ -13,12 +13,15 @@ import {
 import { Button, Container } from 'react-bootstrap';
 
 export default function Machine() {
-    const [selected, setSelected] = useState("bldgOne");
-    const [data, setData] = useState([]);
+    const [selectedBuilding, setSelectedBuilding] = useState("bldgOne");
+    const [buildingData, setBuildingData] = useState([]);
     const [showModal, setShowModal] = useState(false);
+    const [selectedItemId, setSelectedItemId] = useState(null);
     const modalRef = useRef();
-    const openModal = () => {
-        setShowModal(prev => !prev);
+    const openModal = (e) => {
+        const id = e.target.id;
+        setSelectedItemId(Number(id));
+        setShowModal(true);
     };
 
     const animation = useSpring({
@@ -61,27 +64,29 @@ export default function Machine() {
     ];
 
     useEffect(() => {
-
-        switch (selected) {
+        /*TODO: You can make this switch case even more efficient, but this is fine for now
+        Thinking long term, what if you have 100 buildings? You'll have to make a new switch statement for each one!
+        */
+        switch (selectedBuilding) {
             case "bldgOne":
-                setData(bldgOne);
+                setBuildingData(bldgOne);
                 break;
             case "bldgFour":
-                setData(bldgFour);
+                setBuildingData(bldgFour);
                 break;
             case "bldgThree":
-                setData(bldgThree);
+                setBuildingData(bldgThree);
                 break;
             default:
-                setData(bldgOne);
+                setBuildingData(bldgOne);
         }
-        document.addEventListener('keydown', keyPress);
-        return () => document.removeEventListener('keydown', keyPress);
-
+        // clear out itemId so the machine card doesn't look something up that's not there when switching buildings
+        setSelectedItemId(null);
     },
 
-        [selected, keyPress]
+        [selectedBuilding]
     );
+
     return (
         <Container>
             <div className="machine" id="machine">
@@ -91,34 +96,30 @@ export default function Machine() {
                     {list.map(item => (
                         <MachineList
                             title={item.title}
-                            active={selected === item.id}
-                            setSelected={setSelected}
+                            active={selectedBuilding === item.id}
+                            setSelectedBuilding={setSelectedBuilding}
                             id={item.id}
                         />
                     ))}
                 </ul>
                 {/* This displays the individual machine cards. Clicking should open a modal with machine info */}
                 <div className="container">
-                    {data.map((d) => (
+                    {buildingData.map((d) => (
                         <Button onClick={openModal}
-                            active={selected === d.id}
-                            setSelected={setSelected}
+                            active={selectedBuilding === d.id}
                             id={d.id}
                         >
-                            <div className="item">
-                                <h3>{d.title}</h3>
-                                <MachineCard
-                                    // active={selected === d.id}
-                                    // setSelected={setSelected}
-                                    // id={d.id}
-                                    showModal={showModal}
-                                    setShowModal={setShowModal} />
-                            </div>
+                        {d.title}
                         </Button>
                     ))}
                 </div>
             </div>
+            {selectedItemId ? <MachineCard
+                showModal={showModal}
+                setShowModal={setShowModal} 
+                buildingData={buildingData}
+                selectedItemId={selectedItemId}
+            /> : null}
         </Container>
     )
 }
-
