@@ -11,11 +11,15 @@ import "./machineList.scss"
 //         </li>
 //     )
 
-export default function MachineList({ id, title, active, setSelected }) {
+export default function MachineList({ id, title, active, setSelectedBuilding }) {
+    const setSelectedBuildingClicked = e => {
+        setSelectedBuilding(id);
+    }
+
     return (
         <li
             className={active ? "machineList active" : "machineList"}
-            onClick={() => setSelected(id)}
+            onClick={setSelectedBuildingClicked}
         >
             {title}
         </li>
