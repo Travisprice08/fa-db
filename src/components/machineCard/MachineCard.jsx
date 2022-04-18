@@ -52,47 +52,12 @@ export const MachineCard = ({ showModal, setShowModal }) => {
         [setShowModal, showModal]
     );
 
-    // const list = (bldgOne, bldgThree, bldgFour)
-
-    const building = [
-        {
-            bldgOne
-            // id: "bldgOne",
-            // title: "Building 1"
-        },
-        {
-            bldgThree
-            // id: "bldgThree",
-            // title: "Building 3"
-        },
-        {
-            bldgFour
-            // id: "bldgFour",
-            // title: "Building 4"
-        },
-    ];
-
-    useEffect(() => {
-
-        switch (selected) {
-            case "bldgOne":
-                setData(bldgOne);
-                break;
-            case "bldgFour":
-                setData(bldgFour);
-                break;
-            case "bldgThree":
-                setData(bldgThree);
-                break;
-            // default:
-            //     setData(bldgOne);
-        }
-        document.addEventListener('keydown', keyPress);
-        return () => document.removeEventListener('keydown', keyPress);
-    },
-
-        [selected, keyPress]
-    );
+    /* this is a o(n) lookup, could potentially get expensive with large amounts of data
+    ideally a o(1) lookup via a key would be better. Best if the building data came in as an object
+    with the IDs as keys, instead of an array
+    */
+    const itemInfo = buildingData.find(item => item.id === selectedItemId);
+    const { title, jobNum, partNum, op, qty, customer } = itemInfo;
 
     return (
         <Container>
@@ -101,19 +66,14 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                     < div classname='animated' style={animation}>
                         < div classname='modalWrapper' showModal={showModal}>
                             < div classname='modalContent'>
-                                {data.map((d) => (
-                                    <div className="item"
-                                        active={selected === d.id}
-                                        setSelected={setSelected}
-                                        id={d.id}
-                                    >
-                                        <p>{d.jobNum}</p>
-                                        <p>{d.partNum}</p>
-                                        {/* <p>{d.op}</p>
-                                        <p>{d.qty}</p>
-                                        <p>{d.customer}</p> */}
-                                    </div>
-                                ))}
+                                <div className="item">
+                                    <h1>{title}</h1>
+                                    <p>Job Number: {jobNum}</p>
+                                    <p>Part Number: {partNum}</p>
+                                    <p>Current Op: {op}</p>
+                                    <p>Desired Qty: {qty}</p>
+                                    <p>Customer: {customer}</p>
+                                </div>
                             </div>
                             <CloseModalButton
                                 aria-label='Close modal'
