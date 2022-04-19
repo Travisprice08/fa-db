@@ -2,13 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
-import MachineList from '../machineList/MachineList';
 import "./machineCard.scss";
-import {
-    bldgOne,
-    bldgThree,
-    bldgFour
-} from "../../data";
 import { Container } from 'react-bootstrap';
 
 const CloseModalButton = styled(MdClose)`
@@ -23,9 +17,7 @@ const CloseModalButton = styled(MdClose)`
   z-index: 10;
 `;
 
-export const MachineCard = ({ showModal, setShowModal }) => {
-    const [selected, setSelected] = useState("bldgOne");
-    const [data, setData] = useState([]);
+export const MachineCard = ({ selectedItemId, buildingData, showModal, setShowModal }) => {
     const modalRef = useRef();
 
     const animation = useSpring({
@@ -36,10 +28,8 @@ export const MachineCard = ({ showModal, setShowModal }) => {
         transform: showModal ? `translateY(0%)` : `translateY(-100%)`
     });
 
-    const closeModal = e => {
-        if (modalRef.current === e.target) {
-            setShowModal(false);
-        }
+    const closeModalClicked = e => {
+        setShowModal(false);
     };
 
     const keyPress = useCallback(
@@ -52,6 +42,7 @@ export const MachineCard = ({ showModal, setShowModal }) => {
         [setShowModal, showModal]
     );
 
+    // Justins note to keep in mind
     /* this is a o(n) lookup, could potentially get expensive with large amounts of data
     ideally a o(1) lookup via a key would be better. Best if the building data came in as an object
     with the IDs as keys, instead of an array
@@ -62,7 +53,7 @@ export const MachineCard = ({ showModal, setShowModal }) => {
     return (
         <Container>
             {showModal ? (
-                < div classname='background' onClick={closeModal} ref={modalRef}>
+                < div classname='background' onClick={closeModalClicked} ref={modalRef}>
                     < div classname='animated' style={animation}>
                         < div classname='modalWrapper' showModal={showModal}>
                             < div classname='modalContent'>
@@ -77,7 +68,7 @@ export const MachineCard = ({ showModal, setShowModal }) => {
                             </div>
                             <CloseModalButton
                                 aria-label='Close modal'
-                                onClick={() => setShowModal(prev => !prev)}
+                                onClick={closeModalClicked}
                             />
                         </div>
                     </div>
