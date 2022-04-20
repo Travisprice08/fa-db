@@ -7,10 +7,10 @@ import { Container } from 'react-bootstrap';
 
 const CloseModalButton = styled(MdClose)`
   cursor: pointer;
-  position: absolute;
-  color: red;
-  top: 20px;
-  right: 20px;
+  position: fixed;
+  color: black;
+  top: 130px;
+  left: 820px;
   width: 32px;
   height: 32px;
   padding: 0;
@@ -51,7 +51,7 @@ export const MachineCard = ({ selectedItemId, buildingData, showModal, setShowMo
     const { title, jobNum, partNum, op, qty, customer } = itemInfo;
 
     return (
-        <Container>
+        <div className='container'>
             {showModal ? (
                 < div classname='background' onClick={closeModalClicked} ref={modalRef}>
                     < div classname='animated' style={animation}>
@@ -74,6 +74,6 @@ export const MachineCard = ({ selectedItemId, buildingData, showModal, setShowMo
                     </div>
                 </div>
             ) : null}
-        </Container>
+        </div>
     );
 };

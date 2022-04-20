@@ -4,6 +4,7 @@ import Menu from './components/menu/Menu';
 import { useState } from 'react';
 import './app.scss';
 
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
