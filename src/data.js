@@ -311,6 +311,15 @@ export const bldgOne = [
 export const bldgFour = [
     {
         id: 1,
+        title: "SOCO",
+        jobNum: "007005",
+        partNum: "SW-6-15-ML-ASAL",
+        op: "10",
+        qty: "360",
+        customer: "Smith & Wesson"
+    },
+    {
+        id: 2,
         title: "Robo A",
         jobNum: "004065",
         partNum: "BAD-6-15-ML",
@@ -319,7 +328,7 @@ export const bldgFour = [
         customer: "Battle Arms"
     },
     {
-        id: 2,
+        id: 3,
         title: "Robo B",
         jobNum: "003966",
         partNum: "SW-6-15-ML",
@@ -328,7 +337,7 @@ export const bldgFour = [
         customer: "Smith and Wesson"
     },
     {
-        id: 3,
+        id: 4,
         title: "Robo C",
         jobNum: "003805",
         partNum: "55DA22B",
@@ -337,7 +346,7 @@ export const bldgFour = [
         customer: "CMMG"
     },
     {
-        id: 4,
+        id: 5,
         title: "Robo D",
         jobNum: "006365",
         partNum: "AR15EBU-R",
@@ -346,7 +355,7 @@ export const bldgFour = [
         customer: "Fifth Axis"
     },
     {
-        id: 5,
+        id: 6,
         title: "Robo E",
         jobNum: "007345",
         partNum: "DP-6-15-ML",
@@ -355,13 +364,256 @@ export const bldgFour = [
         customer: "Durkin"
     },
     {
-        id: 6,
+        id: 7,
         title: "Robo F",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
         customer: "Stinger"
+    },
+    {
+        id: 8,
+        title: "Robo G",
+        jobNum: "009999",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "20",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 9,
+        title: "Robo H",
+        jobNum: "010000",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 10,
+        title: "Robo I",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 11,
+        title: "4003",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 12,
+        title: "4005",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 13,
+        title: "4008",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 14,
+        title: "4010",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 15,
+        title: "4011",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 16,
+        title: "4012",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 17,
+        title: "4013",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 18,
+        title: "4014",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 19,
+        title: "4015",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 20,
+        title: "4018",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 21,
+        title: "4019",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 22,
+        title: "4020",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 23,
+        title: "4021",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 24,
+        title: "4022",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 25,
+        title: "4023",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 26,
+        title: "4024",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 27,
+        title: "4301",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 28,
+        title: "4302",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 29,
+        title: "4305",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 30,
+        title: "4309",
+        jobNum: "007395",
+        partNum: "SS1-6-15-ML-QD-R",
+        op: "40",
+        qty: "360",
+        customer: "Stinger"
+    },
+    {
+        id: 31,
+        title: "Kita 1",
+        jobNum: "009995",
+        partNum: "AR15EBU-RRA",
+        op: "40",
+        qty: "360",
+        customer: "Rock River"
+    },
+    {
+        id: 32,
+        title: "Kita 2",
+        jobNum: "009996",
+        partNum: "AR15EBU-COLT",
+        op: "40",
+        qty: "360",
+        customer: "COLT"
+    },
+    {
+        id: 33,
+        title: "Kita 3",
+        jobNum: "009997",
+        partNum: "AR15EBU-PSA-9MM",
+        op: "40",
+        qty: "360",
+        customer: "PSA"
+    },
+    {
+        id: 34,
+        title: "Kita 4",
+        jobNum: "009998",
+        partNum: "AR15EBU-CMMG",
+        op: "40",
+        qty: "360",
+        customer: "CMMG"
     },
 
 ]
