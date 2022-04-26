@@ -58,7 +58,7 @@ export const MachineCard = ({ selectedItemId, buildingData, showModal, setShowMo
                         < div classname='modalWrapper' showModal={showModal}>
                             < div classname='modalContent'>
                                 <div className="item">
-                                    <h1>{title}</h1>
+                                    <h2>{title}</h2>
                                     <p>Job Number: {jobNum}</p>
                                     <p>Part Number: {partNum}</p>
                                     <p>Current Op: {op}</p>

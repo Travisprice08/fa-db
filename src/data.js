@@ -6,7 +6,7 @@ export const bldgOne = [
         partNum: "1703223",
         op: "40",
         qty: "260",
-        customer: "Sig Sauer"
+        customer: "Company A"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const bldgOne = [
         partNum: "1703223",
         op: "20",
         qty: "260",
-        customer: "Sig Sauer"
+        customer: "Company A"
     },
     {
         id: 3,
@@ -24,25 +24,25 @@ export const bldgOne = [
         partNum: "FA-6-15-ML",
         op: "30",
         qty: "260",
-        customer: "Fifth Axis"
+        customer: "Company B"
     },
     {
         id: 4,
         title: "Doo4",
         jobNum: "004365",
-        partNum: "AR15EBU-PSA-9mm",
+        partNum: "AR15EBU-Company C-9mm",
         op: "40",
         qty: "360",
-        customer: "JL Billet"
+        customer: "Company C"
     },
     {
         id: 5,
         title: "Doo5",
         jobNum: "003465",
-        partNum: "AR15EBU-PSA-9mm",
+        partNum: "AR15EBU-Company C-9mm",
         op: "40",
         qty: "360",
-        customer: "JL Billet"
+        customer: "Company C"
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 10,
@@ -87,7 +87,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 12,
@@ -105,7 +105,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 13,
@@ -114,7 +114,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 14,
@@ -123,7 +123,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 15,
@@ -132,7 +132,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 16,
@@ -141,7 +141,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 17,
@@ -150,7 +150,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 18,
@@ -159,7 +159,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 19,
@@ -168,7 +168,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 20,
@@ -177,7 +177,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 21,
@@ -186,7 +186,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 22,
@@ -195,7 +195,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 23,
@@ -204,7 +204,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 24,
@@ -213,7 +213,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 25,
@@ -222,7 +222,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 26,
@@ -231,7 +231,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 27,
@@ -240,7 +240,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 28,
@@ -249,7 +249,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 29,
@@ -258,7 +258,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 30,
@@ -267,7 +267,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 31,
@@ -276,7 +276,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 32,
@@ -285,7 +285,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 33,
@@ -294,7 +294,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
     {
         id: 34,
@@ -303,7 +303,7 @@ export const bldgOne = [
         partNum: "TAC-6-7-ML",
         op: "30",
         qty: "360",
-        customer: "Tacfire"
+        customer: "Company D"
     },
 
 ]
@@ -316,7 +316,7 @@ export const bldgFour = [
         partNum: "SW-6-15-ML-ASAL",
         op: "10",
         qty: "360",
-        customer: "Smith & Wesson"
+        customer: "Company E"
     },
     {
         id: 2,
@@ -325,7 +325,7 @@ export const bldgFour = [
         partNum: "BAD-6-15-ML",
         op: "40",
         qty: "260",
-        customer: "Battle Arms"
+        customer: "Company F"
     },
     {
         id: 3,
@@ -334,7 +334,7 @@ export const bldgFour = [
         partNum: "SW-6-15-ML",
         op: "20",
         qty: "260",
-        customer: "Smith and Wesson"
+        customer: "Company E"
     },
     {
         id: 4,
@@ -343,7 +343,7 @@ export const bldgFour = [
         partNum: "55DA22B",
         op: "30",
         qty: "260",
-        customer: "CMMG"
+        customer: "Company G"
     },
     {
         id: 5,
@@ -352,7 +352,7 @@ export const bldgFour = [
         partNum: "AR15EBU-R",
         op: "40",
         qty: "360",
-        customer: "Fifth Axis"
+        customer: "Company B"
     },
     {
         id: 6,
@@ -361,7 +361,7 @@ export const bldgFour = [
         partNum: "DP-6-15-ML",
         op: "30",
         qty: "360",
-        customer: "Durkin"
+        customer: "Company H"
     },
     {
         id: 7,
@@ -370,7 +370,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 8,
@@ -379,7 +379,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "20",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 9,
@@ -388,7 +388,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 10,
@@ -397,7 +397,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 11,
@@ -406,7 +406,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 12,
@@ -415,7 +415,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 13,
@@ -424,7 +424,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 14,
@@ -433,7 +433,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 15,
@@ -442,7 +442,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 16,
@@ -451,7 +451,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 17,
@@ -460,7 +460,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 18,
@@ -469,7 +469,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 19,
@@ -478,7 +478,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 20,
@@ -487,7 +487,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 21,
@@ -496,7 +496,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 22,
@@ -505,7 +505,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 23,
@@ -514,7 +514,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 24,
@@ -523,7 +523,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 25,
@@ -532,7 +532,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 26,
@@ -541,7 +541,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 27,
@@ -550,7 +550,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 28,
@@ -559,7 +559,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 29,
@@ -568,7 +568,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 30,
@@ -577,7 +577,7 @@ export const bldgFour = [
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
         qty: "360",
-        customer: "Stinger"
+        customer: "Company I"
     },
     {
         id: 31,
@@ -586,34 +586,34 @@ export const bldgFour = [
         partNum: "AR15EBU-RRA",
         op: "40",
         qty: "360",
-        customer: "Rock River"
+        customer: "Company J"
     },
     {
         id: 32,
         title: "Kita 2",
         jobNum: "009996",
-        partNum: "AR15EBU-COLT",
+        partNum: "AR15EBU-Company K",
         op: "40",
         qty: "360",
-        customer: "COLT"
+        customer: "Company K"
     },
     {
         id: 33,
         title: "Kita 3",
         jobNum: "009997",
-        partNum: "AR15EBU-PSA-9MM",
+        partNum: "AR15EBU-Company C-9MM",
         op: "40",
         qty: "360",
-        customer: "PSA"
+        customer: "Company C"
     },
     {
         id: 34,
         title: "Kita 4",
         jobNum: "009998",
-        partNum: "AR15EBU-CMMG",
+        partNum: "AR15EBU",
         op: "40",
         qty: "360",
-        customer: "CMMG"
+        customer: "Company G "
     },
 
 ]
@@ -626,7 +626,7 @@ export const bldgThree = [
         partNum: "1703223",
         op: "30",
         qty: "260",
-        customer: "Sig Sauer"
+        customer: "Company A"
     },
     {
         id: 2,
@@ -635,7 +635,7 @@ export const bldgThree = [
         partNum: "1703223",
         op: "20",
         qty: "260",
-        customer: "Sig Sauer"
+        customer: "Company A"
     },
     {
         id: 3,
@@ -644,7 +644,7 @@ export const bldgThree = [
         partNum: "1703223",
         op: "20",
         qty: "260",
-        customer: "Sig Sauer"
+        customer: "Company A"
     },
     {
         id: 4,
@@ -653,7 +653,7 @@ export const bldgThree = [
         partNum: "1801184",
         op: "30",
         qty: "260",
-        customer: "Sig Sauer"
+        customer: "Company A"
     },
 
 ]
