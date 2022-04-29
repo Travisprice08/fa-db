@@ -18,6 +18,23 @@ export default function Machine() {
     const [showModal, setShowModal] = useState(false);
     const [selectedItemId, setSelectedItemId] = useState(null);
     const modalRef = useRef();
+
+    const myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Accept", "application/json");
+    myHeaders.append("Authorization", "Basic MzA2MzpBbXNvaWwwNyE=");
+
+    const requestOptions = {
+        method: 'GET',
+        headers: myHeaders,
+        redirect: 'follow'
+    };
+
+    fetch("https://gccdtapp04.epicorsaas.com/saas1049/api/v1/BaqSvc/SET-UP_SCHEDULE(157806)", requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+
     const openModal = (e) => {
         const id = e.target.id;
         setSelectedItemId(Number(id));

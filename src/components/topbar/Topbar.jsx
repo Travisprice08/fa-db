@@ -32,9 +32,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                         fullWidth
                         label='Search'
                     />
-                    <bldgOne input={inputText} />
+                    {/* <bldgOne input={inputText} />
                     <bldgThree input={inputText} />
-                    <bldgFour input={inputText} />
+                    <bldgFour input={inputText} /> */}
 
                 </div>
                 <div className="right">
