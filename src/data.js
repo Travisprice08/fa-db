@@ -1,7 +1,7 @@
 export const bldgOne = [
     {
         id: 1,
-        title: "Doo1",
+        title: "DOO1",
         jobNum: "003365",
         partNum: "1703223",
         op: "40",
@@ -10,7 +10,7 @@ export const bldgOne = [
     },
     {
         id: 2,
-        title: "Doo2",
+        title: "DOO2",
         jobNum: "003366",
         partNum: "1703223",
         op: "20",
@@ -19,7 +19,7 @@ export const bldgOne = [
     },
     {
         id: 3,
-        title: "Doo3",
+        title: "DOO3",
         jobNum: "003565",
         partNum: "FA-6-15-ML",
         op: "30",
@@ -28,7 +28,7 @@ export const bldgOne = [
     },
     {
         id: 4,
-        title: "Doo4",
+        title: "DOO4",
         jobNum: "004365",
         partNum: "AR15EBU-Company C-9mm",
         op: "40",
@@ -37,7 +37,7 @@ export const bldgOne = [
     },
     {
         id: 5,
-        title: "Doo5",
+        title: "DOO5",
         jobNum: "003465",
         partNum: "AR15EBU-Company C-9mm",
         op: "40",
@@ -46,7 +46,7 @@ export const bldgOne = [
     },
     {
         id: 6,
-        title: "Doo6",
+        title: "DOO6",
         jobNum: "004065",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -55,7 +55,7 @@ export const bldgOne = [
     },
     {
         id: 7,
-        title: "Doo7",
+        title: "DOO7",
         jobNum: "009165",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -64,7 +64,7 @@ export const bldgOne = [
     },
     {
         id: 8,
-        title: "Doo8",
+        title: "DOO8",
         jobNum: "007165",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -73,7 +73,7 @@ export const bldgOne = [
     },
     {
         id: 9,
-        title: "Doo9",
+        title: "DOO9",
         jobNum: "004005",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -82,7 +82,7 @@ export const bldgOne = [
     },
     {
         id: 10,
-        title: "Doo10",
+        title: "DOO10",
         jobNum: "003265",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -91,7 +91,7 @@ export const bldgOne = [
     },
     {
         id: 11,
-        title: "Doo11",
+        title: "DOO11",
         jobNum: "001225",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -100,7 +100,7 @@ export const bldgOne = [
     },
     {
         id: 12,
-        title: "Doo12",
+        title: "DOO12",
         jobNum: "004177",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -109,7 +109,7 @@ export const bldgOne = [
     },
     {
         id: 13,
-        title: "Doo13",
+        title: "DOO13",
         jobNum: "008965",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -118,7 +118,7 @@ export const bldgOne = [
     },
     {
         id: 14,
-        title: "Grob1",
+        title: "GROB1",
         jobNum: "000365",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -127,7 +127,7 @@ export const bldgOne = [
     },
     {
         id: 15,
-        title: "Grob2",
+        title: "GROB2",
         jobNum: "007965",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -136,7 +136,7 @@ export const bldgOne = [
     },
     {
         id: 16,
-        title: "Hermle1",
+        title: "HERMLE1",
         jobNum: "003365",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -145,7 +145,7 @@ export const bldgOne = [
     },
     {
         id: 17,
-        title: "Mik3",
+        title: "MIK3",
         jobNum: "009085",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -154,7 +154,7 @@ export const bldgOne = [
     },
     {
         id: 18,
-        title: "Mik4",
+        title: "MIK4",
         jobNum: "007795",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -163,7 +163,7 @@ export const bldgOne = [
     },
     {
         id: 19,
-        title: "Mik6",
+        title: "MIK6",
         jobNum: "002395",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -172,7 +172,7 @@ export const bldgOne = [
     },
     {
         id: 20,
-        title: "Mik7",
+        title: "MIK7",
         jobNum: "007515",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -181,7 +181,7 @@ export const bldgOne = [
     },
     {
         id: 21,
-        title: "Mik8",
+        title: "MIK8",
         jobNum: "008895",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -190,7 +190,7 @@ export const bldgOne = [
     },
     {
         id: 22,
-        title: "Mik9",
+        title: "MIK9",
         jobNum: "002075",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -199,7 +199,7 @@ export const bldgOne = [
     },
     {
         id: 23,
-        title: "Mik10",
+        title: "MIK10",
         jobNum: "005565",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -208,7 +208,7 @@ export const bldgOne = [
     },
     {
         id: 24,
-        title: "Mik11",
+        title: "MIK11",
         jobNum: "005555",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -217,7 +217,7 @@ export const bldgOne = [
     },
     {
         id: 25,
-        title: "Oka2",
+        title: "OKM2",
         jobNum: "008795",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -226,7 +226,7 @@ export const bldgOne = [
     },
     {
         id: 26,
-        title: "Oka3",
+        title: "OKM3",
         jobNum: "004695",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -235,7 +235,7 @@ export const bldgOne = [
     },
     {
         id: 27,
-        title: "Oka4",
+        title: "OKM4",
         jobNum: "009965",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -244,7 +244,7 @@ export const bldgOne = [
     },
     {
         id: 28,
-        title: "Oka5",
+        title: "OKM5",
         jobNum: "000065",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -253,7 +253,7 @@ export const bldgOne = [
     },
     {
         id: 29,
-        title: "Robo3",
+        title: "ROBO3",
         jobNum: "002065",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -262,7 +262,7 @@ export const bldgOne = [
     },
     {
         id: 30,
-        title: "Robo4",
+        title: "ROBO4",
         jobNum: "003865",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -289,7 +289,7 @@ export const bldgOne = [
     },
     {
         id: 33,
-        title: "Vf2-4",
+        title: "VF2-4",
         jobNum: "009999",
         partNum: "TAC-6-7-ML",
         op: "30",
@@ -311,7 +311,7 @@ export const bldgOne = [
 export const bldgFour = [
     {
         id: 1,
-        title: "SOCO",
+        title: "SOCO SAW",
         jobNum: "007005",
         partNum: "SW-6-15-ML-ASAL",
         op: "10",
@@ -320,7 +320,7 @@ export const bldgFour = [
     },
     {
         id: 2,
-        title: "Robo A",
+        title: "4306 ROBO A",
         jobNum: "004065",
         partNum: "BAD-6-15-ML",
         op: "40",
@@ -329,7 +329,7 @@ export const bldgFour = [
     },
     {
         id: 3,
-        title: "Robo B",
+        title: "4307 ROBO B",
         jobNum: "003966",
         partNum: "SW-6-15-ML",
         op: "20",
@@ -338,7 +338,7 @@ export const bldgFour = [
     },
     {
         id: 4,
-        title: "Robo C",
+        title: "4308 ROBO C",
         jobNum: "003805",
         partNum: "55DA22B",
         op: "30",
@@ -347,7 +347,7 @@ export const bldgFour = [
     },
     {
         id: 5,
-        title: "Robo D",
+        title: "4310 ROBO D",
         jobNum: "006365",
         partNum: "AR15EBU-R",
         op: "40",
@@ -356,7 +356,7 @@ export const bldgFour = [
     },
     {
         id: 6,
-        title: "Robo E",
+        title: "4311 ROBO E",
         jobNum: "007345",
         partNum: "DP-6-15-ML",
         op: "30",
@@ -365,7 +365,7 @@ export const bldgFour = [
     },
     {
         id: 7,
-        title: "Robo F",
+        title: "4312 ROBO F",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -374,7 +374,7 @@ export const bldgFour = [
     },
     {
         id: 8,
-        title: "Robo G",
+        title: "4313 ROBO G",
         jobNum: "009999",
         partNum: "SS1-6-15-ML-QD-R",
         op: "20",
@@ -383,7 +383,7 @@ export const bldgFour = [
     },
     {
         id: 9,
-        title: "Robo H",
+        title: "4314 ROBO H",
         jobNum: "010000",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -392,7 +392,7 @@ export const bldgFour = [
     },
     {
         id: 10,
-        title: "Robo I",
+        title: "4315 ROBO I",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -401,7 +401,7 @@ export const bldgFour = [
     },
     {
         id: 11,
-        title: "4003",
+        title: "4003 VF2-3",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -410,7 +410,7 @@ export const bldgFour = [
     },
     {
         id: 12,
-        title: "4005",
+        title: "4005 VF2-5",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -419,7 +419,7 @@ export const bldgFour = [
     },
     {
         id: 13,
-        title: "4008",
+        title: "4008 VF2-7",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -428,7 +428,7 @@ export const bldgFour = [
     },
     {
         id: 14,
-        title: "4010",
+        title: "4010 DM2-1",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -437,7 +437,7 @@ export const bldgFour = [
     },
     {
         id: 15,
-        title: "4011",
+        title: "4011 DM2-2",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -446,7 +446,7 @@ export const bldgFour = [
     },
     {
         id: 16,
-        title: "4012",
+        title: "4012 DM1-1",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -455,7 +455,7 @@ export const bldgFour = [
     },
     {
         id: 17,
-        title: "4013",
+        title: "4013 DM1-2",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -464,7 +464,7 @@ export const bldgFour = [
     },
     {
         id: 18,
-        title: "4014",
+        title: "4014 DM2-3",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -473,7 +473,7 @@ export const bldgFour = [
     },
     {
         id: 19,
-        title: "4015",
+        title: "4015 DM2-4",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -482,7 +482,7 @@ export const bldgFour = [
     },
     {
         id: 20,
-        title: "4018",
+        title: "4018 VF2-8",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -491,7 +491,7 @@ export const bldgFour = [
     },
     {
         id: 21,
-        title: "4019",
+        title: "4019 VF2-9",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -500,7 +500,7 @@ export const bldgFour = [
     },
     {
         id: 22,
-        title: "4020",
+        title: "4020 VF2-10",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -509,7 +509,7 @@ export const bldgFour = [
     },
     {
         id: 23,
-        title: "4021",
+        title: "4021 DM1-3",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -518,7 +518,7 @@ export const bldgFour = [
     },
     {
         id: 24,
-        title: "4022",
+        title: "4022 VF2-SSYT",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -527,7 +527,7 @@ export const bldgFour = [
     },
     {
         id: 25,
-        title: "4023",
+        title: "4023 VF2-11",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -536,7 +536,7 @@ export const bldgFour = [
     },
     {
         id: 26,
-        title: "4024",
+        title: "4024 VF2-12",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -545,7 +545,7 @@ export const bldgFour = [
     },
     {
         id: 27,
-        title: "4301",
+        title: "4301 ROBO-1",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -554,7 +554,7 @@ export const bldgFour = [
     },
     {
         id: 28,
-        title: "4302",
+        title: "4302 ROBO-2",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -563,7 +563,7 @@ export const bldgFour = [
     },
     {
         id: 29,
-        title: "4305",
+        title: "4305 ROBO-5",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -572,7 +572,7 @@ export const bldgFour = [
     },
     {
         id: 30,
-        title: "4309",
+        title: "4309 ROBO PALL",
         jobNum: "007395",
         partNum: "SS1-6-15-ML-QD-R",
         op: "40",
@@ -581,7 +581,7 @@ export const bldgFour = [
     },
     {
         id: 31,
-        title: "Kita 1",
+        title: "KITA 1",
         jobNum: "009995",
         partNum: "AR15EBU-RRA",
         op: "40",
@@ -590,7 +590,7 @@ export const bldgFour = [
     },
     {
         id: 32,
-        title: "Kita 2",
+        title: "KITA 2",
         jobNum: "009996",
         partNum: "AR15EBU-Company K",
         op: "40",
@@ -599,7 +599,7 @@ export const bldgFour = [
     },
     {
         id: 33,
-        title: "Kita 3",
+        title: "KITA 3",
         jobNum: "009997",
         partNum: "AR15EBU-Company C-9MM",
         op: "40",
@@ -608,7 +608,7 @@ export const bldgFour = [
     },
     {
         id: 34,
-        title: "Kita 4",
+        title: "KITA 4",
         jobNum: "009998",
         partNum: "AR15EBU",
         op: "40",
@@ -630,7 +630,7 @@ export const bldgThree = [
     },
     {
         id: 2,
-        title: "Doo 4500",
+        title: "ENG DOO",
         jobNum: "003066",
         partNum: "1703223",
         op: "20",
@@ -639,7 +639,7 @@ export const bldgThree = [
     },
     {
         id: 3,
-        title: "Doo 5X",
+        title: "ENG DOO 5X",
         jobNum: "003067",
         partNum: "1703223",
         op: "20",
