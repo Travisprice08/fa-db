@@ -25,6 +25,7 @@
         padding: 0;
         list-style: none;
         display: flex;
+
     }
 
     .container {
@@ -52,6 +53,7 @@
 
             &:hover {
                 background-color: rgb(209, 46, 46);
+                color: white;
 
                 img {
                     opacity: 0.2;
