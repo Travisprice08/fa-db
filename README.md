@@ -1,5 +1,13 @@
 ![fa-db](/public/assets/FADB.gif)
 
+# About This App
+
+This app was designed to make machine schedules more easily accessable to operators at my job at 5th Axis.
+All machine data was being pulled into an Excel document which took up a lot of time.
+Instead of using a Excel document, I wanted to be able to pull only what was needed asyncronously.
+This version of the application only displays mock data as the data being pulled is propietary.
+The full version uses REST calls to pull information from our Epicor API.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
