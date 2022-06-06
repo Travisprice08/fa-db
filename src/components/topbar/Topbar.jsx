@@ -25,13 +25,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <h1>5<span>th</span> Axis</h1>
                 </div>
                 <div className="search">
-                    <TextField
+                    {/*Add future search bar function*/}
+                    {/* <TextField
                         id='search'
                         onChange={inputHandler}
                         variant='outlined'
                         fullWidth
                         label='Search'
-                    />
+                    /> */}
                     {/* <bldgOne input={inputText} />
                     <bldgThree input={inputText} />
                     <bldgFour input={inputText} /> */}
