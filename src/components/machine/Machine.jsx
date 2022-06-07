@@ -104,6 +104,7 @@ export default function Machine() {
         <Container>
             <div className="machine" id="machine">
                 <h1><span>S</span>chedule</h1>
+                <h3>*This is the demo site. Actual site has proprietary data and cannot be shared*</h3>
                 {/* This displays the building list under at the top */}
                 <ul>
                     {list.map(item => (
